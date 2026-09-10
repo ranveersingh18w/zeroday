@@ -11,7 +11,8 @@ from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from zero_day.contracts import AlertV1, FlowEvent
+from zero_day.contracts impo
+rt AlertV1, FlowEvent
 from zero_day.engine import AlertEngine
 from zero_day.replay import read_jsonl_events
 

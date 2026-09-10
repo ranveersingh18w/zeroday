@@ -89,6 +89,12 @@ python -m zero_day.cli api --port 8000
 cd frontend && npm install && npm run dev
 ```
 
+## 📚 Documentation & Database Guides
+
+- 📖 **[Database Construction Guide](docs/DATABASE_CONSTRUCTION_GUIDE.md)** — Step-by-step SQL schema, indexes, RLS policies, and Realtime publication.
+- 📖 **[Read Data Directly from Supabase](docs/SUPABASE_DATA_READING.md)** — Complete code examples for reading data in **Python**, **JavaScript/TypeScript**, **cURL**, and **Realtime WebSockets**.
+- 📖 **[Insert Data Directly to Supabase](docs/SUPABASE_DATA_INSERTION.md)** — Code examples for pushing threats/alerts into Supabase from Python, cURL, or JS.
+
 ## 📁 Project Structure
 
 ```
